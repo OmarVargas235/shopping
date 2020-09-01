@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <NavbarPage /> 1`] = `
+<styled.nav
+  className="d-flex justify-content-center py-3 mb-4"
+>
+  <NavLink
+    activeClassName="navbar__link--active"
+    className="navbar__link"
+    to="/home"
+  >
+    Store
+  </NavLink>
+  <NavLink
+    activeClassName="navbar__link--active"
+    className="navbar__link"
+    to="/about"
+  >
+    About
+  </NavLink>
+  <NavLink
+    activeClassName="navbar__link--active"
+    className="navbar__link navbar__link--mr d-flex"
+    to="/cart"
+  >
+    <span
+      className="mr-1 d-flex align-items-center"
+    >
+       
+      <ForwardRef(SvgShoppingCart) />
+       
+    </span>
+     Cart (
+    4
+    )
+  </NavLink>
+</styled.nav>
+`;

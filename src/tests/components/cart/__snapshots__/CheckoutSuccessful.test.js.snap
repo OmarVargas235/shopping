@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comprobando el marcado html en <CheckoutSuccessful /> 1`] = `
+<styled.div
+  className="text-center"
+>
+  <p
+    className="checkout"
+  >
+    Checkout successfull
+  </p>
+  <Link
+    className="btn btn--buy py-3"
+    to="/home"
+  >
+    BUY MORE
+  </Link>
+</styled.div>
+`;

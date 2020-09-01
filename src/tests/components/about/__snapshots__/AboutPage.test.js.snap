@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comprobando el marcado html 1`] = `
+<div
+  className="text-center d-flex flex-column align-items-center container"
+>
+  <h2
+    className="font-normal"
+  >
+    ABOUT
+  </h2>
+  <p
+    className="my-4"
+  >
+    This project was built for practice purposes using Context API by React.
+  </p>
+  <styled.button
+    className="btn d-flex text-center align-items-center"
+  >
+    <ForwardRef(SvgGitHub) />
+     
+    <span
+      className="ml-2"
+    >
+      VISIT REPO
+    </span>
+  </styled.button>
+</div>
+`;
